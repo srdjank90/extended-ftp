@@ -1,0 +1,16 @@
+{
+    "name": "srdjank90/extended-ftp",
+    "description": "Extended FTP functionality",
+    "autoload": {
+        "psr-4": {
+            "Srdjank90\\ExtendedFtp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Srdjan Kordic",
+            "email": "srdjank90@gmail.com"
+        }
+    ],
+    "require": {}
+}
