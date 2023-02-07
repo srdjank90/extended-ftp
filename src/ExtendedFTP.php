@@ -1,10 +1,10 @@
 <?php
 
-namespace ExtendedFTP\App;
+namespace Srdjank90\ExtendedFtp;
 
 use Exception;
 
-class ExtendedFTP {
+class ExtendedFtp {
 
   private $ftpConnection;
   private $ftpSession = false;
@@ -81,6 +81,10 @@ class ExtendedFTP {
 
   public function emptyDirectoryRecursive($remoteDirectory){
     
+  }
+
+  public function listDirectory($directory){
+    return ftp_nlist( $this->ftpConnection, $directory);
   }
   
 }
